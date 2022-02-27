@@ -1,0 +1,63 @@
+$backgroundColor: rgb(0, 0, 0);
+$primaryTextColor: white;
+$secondaryTextColor: rgb(226, 182, 240);
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: $backgroundColor;
+  margin: 0px;
+}
+
+header {
+  text-align: center;
+  background-color: $backgroundColor;
+  padding-top: 40px;
+  border-radius: 9px;
+  h1 {
+    color: $primaryTextColor;
+    margin: 0px;
+    font-size: 45px;
+  }
+
+  h4 {
+    color: $secondaryTextColor;
+    margin: 3px;
+  }
+
+  .grape {
+    font-size: 45px;
+  }
+}
+
+h3 {
+  color: $primaryTextColor;
+}
+
+.card {
+  text-align: left;
+  background-color: $backgroundColor;
+  color: $primaryTextColor;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 9px;
+  a {
+    font-size: 13px;
+    color: $secondaryTextColor;
+  }
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: $backgroundColor;
+  color: $secondaryTextColor;
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
