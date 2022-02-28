@@ -3,6 +3,73 @@ html {
 }
 
 body {
+  background-color: white;
+  margin: 0px;
+}
+
+main {
+  padding-right: 3.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+  padding: 2.625rem 1.3125rem;
+  padding-top: 0;
+}
+
+header {
+  text-align: center;
+  background-color: white;
+  padding-top: 40px;
+  border-radius: 9px;
+}
+
+header h1 {
+  color: black;
+  margin: 0px;
+  font-size: 45px;
+}
+
+header h4 {
+  color: #ff6e6c;
+  margin: 3px;
+}
+
+h3 {
+  color: black;
+}
+
+.card {
+  text-align: left;
+  background-color: white;
+  color: black;
+  border-radius: 9px;
+}
+
+.card a {
+  font-size: 13px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #e2b6f0;
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
+
+a,
+a:hover,
+a:visited {
+ color: #ff6e6c;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
   background-color: black;
   margin: 0px;
 }
@@ -25,10 +92,6 @@ header h4 {
   margin: 3px;
 }
 
-header .grape {
-  font-size: 45px;
-}
-
 h3 {
   color: white;
 }
@@ -37,26 +100,24 @@ h3 {
   text-align: left;
   background-color: black;
   color: white;
-  margin: 20px;
-  padding: 20px;
   border-radius: 9px;
 }
-
-.card a {
-  font-size: 13px;
-  color: #e2b6f0;
+  a,
+  a:hover,
+  a:visited {
+    color: #e2b6f0;
+  }
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: black;
-  color: #e2b6f0;
-  text-align: center;
+.blogttl {
+  font-size: 17px;
+}
+
+.blogcnt {
   font-style: italic;
-  font-size: 12px;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.ff {
+  opacity: 0.6;
+  font-size: 13px;
+}
