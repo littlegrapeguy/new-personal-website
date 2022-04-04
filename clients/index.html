@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>littlegrapeguy</title>
+    <link
+      href="https://emojicdn.elk.sh/🌄?style=apple"
+      id="favicon"
+      rel="icon"
+    />
+    <script src="xml.js"></script>
+    <style>
+      html {
+        font-family: inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+          Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+          segoe ui symbol;
+      }
+      body {
+        background-color: #fff;
+        margin: 0;
+      }
+      main {
+        padding-right: 3.5vw;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 42rem;
+        padding: 2.625rem 1.3125rem;
+        padding-top: 0;
+      }
+      header {
+        text-align: center;
+        background-color: #9921e8;
+        background-image: linear-gradient(315deg, #9921e8 0, #5f72be 74%);
+        padding: 80px 0;
+        background-attachment: fixed;
+      }
+      header h1 {
+        color: #fff;
+        margin: 0;
+        font-size: 45px;
+      }
+      header h4 {
+        color: #ffb6b5;
+        margin: 3px;
+        font-style: italic;
+      }
+      header p {
+        opacity: 0.7;
+        color: #fff;
+      }
+      h3 {
+        color: #1e2124;
+      }
+      .cardi {
+        text-align: left;
+        background-color: #fff;
+        color: #1e2124;
+        border-radius: 9px;
+      }
+      footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0;
+        background-color: #1e2124;
+        color: #e2b6f0;
+        text-align: center;
+        font-style: italic;
+        font-size: 12px;
+      }
+      a,
+      a:hover {
+        color: #ff6e6c;
+        cursor: pointer;
+        text-decoration: none !important;
+      }
+      a:visited {
+        color: #ff6e6c;
+        opacity: 0.8;
+      }
+      .navbar {
+        top: 0;
+        background-color: #1e2124;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .navbar span {
+        padding-right: 14px;
+        padding-left: 14px;
+      }
+      .ribbon {
+        width: 100%;
+        padding: 10px 0;
+        background-color: #ffb6b5;
+        color: #000;
+        text-align: center;
+        font-style: italic;
+        font-size: 12px;
+      }
+      .tag {
+        color: #1e90ff;
+        text-decoration: none;
+      }
+      .description {
+        font-style: italic;
+        border: 3px solid #ffb6b5;
+        border-radius: 9px;
+        padding: 8px;
+      }
+      .title {
+        outline: 0;
+        border: none;
+        background-color: #ffb6b5;
+        padding: 6px;
+        border-radius: 3px;
+        margin-right: 4px;
+        cursor: pointer;
+      }
+      .ttl::before {
+        background: #ffb6b5 !important;
+      }
+      .ttl {
+        font-size: 20px !important;
+        text-decoration: none !important;
+      }
+      .bgpost::before {
+        background: #fff4db !important;
+      }
+      .bgdate::before {
+        background: #ffb6b5 !important;
+      }
+      .bgdate {
+        font-size: 13px !important;
+      }
+      .title:hover {
+        opacity: 0.7;
+      }
+      .date {
+        outline: 0;
+        border: none;
+        background-color: transparent;
+      }
+      time {
+        border-left: 3px solid grey;
+        padding-left: 8px;
+      }
+      #blogcnt {
+        border-radius: 5px;
+      }
+      body {
+        --block-text-color: #222222;
+        --block-background-color: #ffffff;
+        --block-accent-color: #8218fe;
+        --block-shadow-color: #444444;
+      }
+      .block {
+        display: block;
+        color: var(--block-text-color);
+        border: 3px solid var(--block-text-color);
+        border-radius: 5px;
+        padding: 4px 8px;
+        background: var(--block-background-color);
+        font-weight: 700;
+        cursor: pointer;
+        box-sizing: border-box;
+        font-size: 16px;
+        position: relative;
+        top: -2px;
+        left: -2px;
+        transition: transform 0.2s;
+        margin: 8px 6px 10px;
+        z-index: 1;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+      }
+      .block.wrapper,
+      .block.wrapper.inline {
+        display: inline-block;
+      }
+      .block.wrapper > * {
+        margin: 0;
+      }
+      .block::before {
+        content: "";
+        background: var(--block-background-color);
+        border: 3px solid var(--block-text-color);
+        border-radius: 5px;
+        box-sizing: border-box;
+        position: absolute;
+        top: -3px;
+        left: -3px;
+        height: calc(100% + 6px);
+        width: calc(100% + 6px);
+        z-index: -1;
+      }
+      .block:focus,
+      .block:hover {
+        transform: translate(2px, 2px);
+      }
+      .block::after {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        background: var(--block-shadow-color);
+        border: 3px solid var(--block-text-color);
+        border-radius: 5px;
+        height: calc(100% + 6px);
+        width: calc(100% + 6px);
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        right: 0;
+        z-index: -2;
+        transition: transform 0.2s;
+      }
+      .block:focus::after,
+      .block:hover::after {
+        transform: translate(-2px, -3px);
+      }
+      .block:active {
+        color: var(--block-text-color);
+        transform: translate(3px, 3px);
+      }
+      .block:active::after {
+        transform: translate(-4px, -4px);
+      }
+      .block:focus {
+        outline: 0;
+      }
+      .block.fixed {
+        cursor: initial;
+      }
+      .block.fixed:active,
+      .block.fixed:active::after,
+      .block.fixed:active::before,
+      .block.fixed:focus,
+      .block.fixed:focus::after,
+      .block.fixed:focus::before,
+      .block.fixed:hover,
+      .block.fixed:hover::after,
+      .block.fixed:hover::before {
+        transform: none;
+      }
+      .block.accent {
+        color: var(--block-background-color);
+        background: var(--block-accent-color);
+      }
+      .block.accent::before {
+        background: var(--block-accent-color);
+      }
+      .block.inline {
+        display: inline-block;
+      }
+      .block.round,
+      .block.round::after,
+      .block.round::before {
+        border-radius: 30px;
+      }
+      .block.round::after {
+        left: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <span>
+        <a href="/">Back Home!</a>
+      </span>
+    </div>
+    <header>
+      <h1>Client Work</h1>
+    </header>
+    <div class="ribbon">
+      <span>If you want a website made for you, hit me up!</span>
+    </div>
+    <br />
+    <br />
+    <main>
+      <div class="cardi">
+        <h3>List of client websites:</h3>
+        <p><b>Email me right <a href="mailto:sgautamam@gmail.com">here</a> for your own website!</b></p>
+       <ul>
+         <li><a>https://</a></li>
+        </ul>
+        
+      </div>
+      <br />
+      
+    </main>
+    <footer>
+      <a href="https://512kb.club">
+        <img
+          width="150px"
+          src="https://512kb.club/assets/images/green-team.svg"
+        />
+      </a>
+    </footer>
+  </body>
+</html>
